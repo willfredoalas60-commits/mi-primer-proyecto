@@ -1,0 +1,70 @@
+/* Configuración básica de la página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor principal de la tarjeta */
+.blog-post-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre la tarjeta */
+.blog-post-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagen de portada */
+.post-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Contenedor del texto */
+.post-content {
+  padding: 20px;
+}
+
+/* Título de la tarjeta */
+.post-title {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+}
+
+/* Extracto de texto */
+.post-excerpt {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Enlace "Read More" con estilo de botón */
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color del botón al pasar el cursor */
+.read-more:hover {
+  background-color: #2980b9;
+}
